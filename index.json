@@ -32,8 +32,8 @@
      "descriptions":"Dimensions",
      "type":"dimension"
     },
-     {
-     "id" : "Measures",
+    {
+     "id" : "measures",
      "descriptions":"Measures",
      "type":"mainStructureMember"
     }
