@@ -29,12 +29,12 @@
    "feeds":[
     {
      "id" : "dimensions",
-     "descriptions":"Dimensions",
+     "description":"Dimensions",
      "type":"dimension"
     },
     {
      "id" : "measures",
-     "descriptions":"Measures",
+     "description":"Measures",
      "type":"mainStructureMember"
     }
    ]
