@@ -18,7 +18,8 @@
  this.render()
 }
 
-onCustomWidgetAfterUpdate(changedProps)
+onCustomWidgetAfterUpdate(changedProps){
+}
 
 onCustomWidgetDestroy(){
 }
