@@ -16,4 +16,17 @@
  }
  }
  customElements.define('com-sap-sac-exercise-j001-main', Main)
+
+ onCustomWidgetResize(width, height){
+ this.render()
+}
+
+onCustomWidgetAfterUpdate(changedProps)
+
+onCustomWidgetDestroy(){
+}
+
+render(){
+ this._root.textContent='Hello Custom Widget Clientwidth : ${this.Clientwidth}, ClientHeight: ${this.ClientHeight}
+}
  })()
