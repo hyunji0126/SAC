@@ -27,6 +27,6 @@ onCustomWidgetDestroy(){
 }
 
 render(){
- this._root.textContent='Hello Custom Widget Clientwidth : ${this.Clientwidth}, ClientHeight: ${this.ClientHeight}
+ this._root.textContent='Hello Custom Widget Clientwidth : ${this.Clientwidth}, ClientHeight: ${this.ClientHeight}'
 }
  })()
