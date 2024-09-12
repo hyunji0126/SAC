@@ -29,6 +29,11 @@
    "feeds":[
     {
      "id" : "dimensions",
+     "descriptions":"Dimensions",
+     "type":"dimensions"
+    },
+     {
+     "id" : "Measures",
      "descriptions":"Measures",
      "type":"mainStructureMember"
     }
