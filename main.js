@@ -24,9 +24,16 @@ onCustomWidgetAfterUpdate(changedProps){
 onCustomWidgetDestroy(){
 }
 
-render(){
- this._root.textContent="Hello Custom Widget clientwidth : ${this.clientwidth}, clientHeight: ${this.clientHeight}"
-}
+// render(){
+//  this._root.textContent="Hello Custom Widget clientwidth : ${this.clientwidth}, clientHeight: ${this.clientHeight}"
+// }
+ async render(){
+  const dataBinding = this.dataBinding
+  if(!dataBinding || dataBinding.state !== 'success'){
+   return
+  }
+  this._root.textContent = JSON.stringify(dataBinding)
+ }
  }
 customElements.define('com-sap-sac-exercise-j002-main', Main)
 
