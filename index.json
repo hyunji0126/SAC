@@ -30,7 +30,7 @@
     {
      "id" : "dimensions",
      "descriptions":"Dimensions",
-     "type":"dimensions"
+     "type":"dimension"
     },
      {
      "id" : "Measures",
