@@ -25,10 +25,10 @@ onCustomWidgetDestroy(){
 }
 
 render(){
- this._root.textContent='Hello Custom Widget Clientwidth : ${this.Clientwidth}, ClientHeight: ${this.ClientHeight}'
+ this._root.textContent='Hello Custom Widget clientwidth : ${this.clientwidth}, clientHeight: ${this.clientHeight}'
 }
  }
- customElements.define('com-sap-sac-exercise-j001-main', Main)
+ customElements.define('com-sap-sac-exercise-hj001-main', Main)
 
 
  })()
