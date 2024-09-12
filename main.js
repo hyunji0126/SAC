@@ -25,7 +25,7 @@ onCustomWidgetDestroy(){
 }
 
 render(){
- this._root.textContent='Hello Custom Widget clientwidth : ${this.clientwidth}, clientHeight: ${this.clientHeight}'
+ this._root.textContent="Hello Custom Widget clientwidth : ${this.clientwidth}, clientHeight: ${this.clientHeight}"
 }
  }
 customElements.define('com-sap-sac-exercise-j002-main', Main)
