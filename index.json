@@ -22,5 +22,15 @@
  }
  },
  "methods":{},
- "events":{}
+ "events":{},
+ "dataBindings":{
+  "dataBinding":{
+   "feeds":[
+    {
+     "id" : "dimensions",
+     "descriptions":"Measures",
+     "type":"mainStructureMember"
+    }
+   ]
+  }
 }
